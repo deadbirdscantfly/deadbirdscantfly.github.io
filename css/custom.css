@@ -1,7 +1,10 @@
 .container {
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
+div.container{
+  
+}
 ::selection {
   background: #89a6ff;
 }
@@ -63,7 +66,7 @@ li > .book{
 }
 
 .book-image {
-  float: left;
+  float: right;
   width: 25%;
 }
 
