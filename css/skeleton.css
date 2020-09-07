@@ -23,8 +23,8 @@
 
     .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
     .container .column,
-    .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
-    .row                                        { margin-bottom: 20px; }
+    .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; margin-top: 10px;}
+    .row                                        { /*margin-bottom: 20px;*/ }
 
     /* Nested Column Classes */
     .column.alpha, .columns.alpha               { margin-left: 0; }
@@ -53,7 +53,7 @@
     .container .two-thirds.column               { width: 620px; }
 
     /* Offsets */
-    .container .offset-by-one                   { padding-left: 60px;  }
+    .container .offset-by-one                   { padding-left: 60px; padding-top: 10px; }
     .container .offset-by-two                   { padding-left: 120px; }
     .container .offset-by-three                 { padding-left: 180px; }
     .container .offset-by-four                  { padding-left: 240px; }

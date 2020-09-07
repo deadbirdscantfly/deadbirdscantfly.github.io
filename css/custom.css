@@ -1,12 +1,3 @@
-.container {
-  padding-top: 30px;
-}
-
-.content p {
-  color:  #19334d;
-  font-size: 16px;
-}
-
 ::selection {
   background: #89a6ff;
 }
@@ -47,12 +38,13 @@ li {
 }
 
 #logo {
-  margin-bottom: 20px;
-  letter-spacing: -1px;
+/*  margin-bottom: 10px;
+*/  letter-spacing: -1px;
 }
 
 #logo a {
   text-decoration: none;
+  font-size: 14px;
 }
 
 li > .book{
@@ -91,8 +83,14 @@ li > .book{
   vertical-align: top;
 }
 
+body{
+/*  background-color: grey;
+*/}
+
 /* Mobile */
 @media only screen and (max-width: 767px) {
+
+
   header h1 {
     font-size: 34px;
     line-height: 37px;
@@ -100,7 +98,8 @@ li > .book{
 
   #logo {
     text-align: center;
-  }
+/*    background-color: yellow;
+*/  }
 
 
   nav { 
@@ -125,13 +124,20 @@ li > .book{
 
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  body{
+/*    background-color: purple;
+*/  }
 }
 
 /* Non 960 */
 @media only screen and (max-width: 959px) {
-    #logo {
+    /*#logo {
       margin-bottom: 15px;
-    }
+    }*/
+
+    p{
+/*      background-color: green;
+*/    }
 
     nav .button {
       padding: 9px 20px 11px;
@@ -142,7 +148,8 @@ li > .book{
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   nav {
     width: 124px;
-  }
+/*    background-color: salmon;
+*/  }
 }
 
 /* Mobile/Browser */
