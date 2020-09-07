@@ -2,9 +2,11 @@
   padding-top: 30px;
 }
 
-div.container{
-  
+.content p {
+  color:  #19334d;
+  font-size: 16px;
 }
+
 ::selection {
   background: #89a6ff;
 }
