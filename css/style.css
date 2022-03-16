@@ -1,0 +1,98 @@
+html, body, ul {
+    all: unset;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+	background: darkseagreen;
+}
+
+li {
+    display: inline;
+}
+
+.headerwrapper {
+    max-width: 1170px;
+    margin: 0px auto 0px auto;
+    padding: 13px 12px 10px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background: lightsteelblue;
+}
+
+h2 > sup {
+    font-size: 14px;
+}
+
+sup {
+    font-size: 10px;
+}
+
+.post {
+    padding: 10px 10px 0px 10px;
+}
+
+.post > p{
+    line-height: 1.5;
+}
+
+.body-container {
+    height: 750px; 
+	
+}
+
+.folder {
+    padding: 0px 15px 0px 15px;
+}
+
+#timestamp {
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    color: #333333;
+    font-style: italic;
+}
+
+#used-links {
+    padding-left: 15px;
+    color: #333333;
+    font-style: italic;
+}
+
+.post-preview {
+    padding: 10px;;
+}
+
+#listening-preview-one, #listening-preview-two {
+    font-size: 12px;
+}
+#clear {
+	height: 54px;
+    width: 150px;
+    position: absolute;
+    background-color: #808080;
+    bottom: 16px;
+    left: 30px;
+    border-color: #999999;
+    border-style: solid;
+    border-width: thick;
+    text-align: center;
+    padding-top: 23px;
+    color: white;
+    font-size: 25px;
+}
+
+#party {
+    height: 54px;
+    width: 150px;
+    position: absolute;
+    background-color: #808080;
+    bottom: 16px;
+    right: 30px;
+    border-color: #999999;
+    border-style: solid;
+    border-width: thick;
+    padding-top: 23px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
