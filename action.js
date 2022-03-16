@@ -21,8 +21,8 @@ window.onload = function() {
         toad.style.top = y+'px';
         toad.src = "media/toad.png";
 
-        toad.style.height = "45px";
-        toad.style.width = "45px";
+        toad.style.height = "85px";
+        // toad.style.width = "45px";
 
         return toad;
     }

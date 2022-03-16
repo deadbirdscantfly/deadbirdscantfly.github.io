@@ -16,7 +16,6 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-	background: lightsteelblue;
 }
 
 h2 > sup {
